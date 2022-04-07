@@ -4,6 +4,6 @@ const PasswordComplexityValues = {
     EXCELLENT: 'excellent',
 }
 
-const calculateComplexity = password => PasswordComplexityValues.EXCELLENT
+const calculateComplexity = password => 'Good Luck!'
 
 module.exports = { calculateComplexity, PasswordComplexityValues }

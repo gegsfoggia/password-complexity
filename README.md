@@ -6,7 +6,7 @@
     c. Implementar una función que:
     - Si cumple con las 2 reglas → es Excelente
     - Si cumple con sólo 1 → es Buena
-    - Si no cumple con ninguna → es Mala
+    - Si no cumple con ninguna → es Débil
 
 2. Usando la función construida en el ejercicio anterior, mostrar un semáforo de colores de acuerdo a si la contraseña ingresada es Excelente (verde), Buena (amarillo) o Mala (rojo).
 
