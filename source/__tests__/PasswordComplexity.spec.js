@@ -11,7 +11,7 @@ describe('Password complexity tests', () => {
         expect(complexity).toEqual(PasswordComplexityValues.GOOD)
     })
     
-    it('should be bad', () => {
+    it('should be weak', () => {
         const complexity = calculateComplexity('pass')
         expect(complexity).toEqual(PasswordComplexityValues.WEAK)
     })    
